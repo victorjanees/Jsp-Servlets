@@ -10,10 +10,12 @@
 <h1>Contact Us</h1>
 <p>please fill this form in a decent manner</p><br>
 <form action="ContactServlet" method="post">
-Full Name: <input type ="text" name ="name" required><br>
-E-mail: <input type="email" name="email" required><br>
-Message: <textarea rows="5" cols="30" name= "message"required></textarea><br>
-<button type="submit">Submit</button>
+<table>
+<tr><td>Full Name:</td><td> <input type ="text" name ="name" required></td></tr><br>
+<tr><td>E-mail:</td> <td><input type="email" name="email" required></td></tr><br>
+<tr><td>Message:</td><td> <textarea rows="5" cols="30" name= "message"required></textarea></td><tr><br>
+<tr> <td><button type="submit">Submit</button></td></tr>
+</table>
 </form>
 </body>
 </html>
