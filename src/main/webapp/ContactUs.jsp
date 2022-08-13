@@ -7,9 +7,9 @@
 <title>Contact us</title>
 </head>
 <body>
+<form action="contactus" method="post">
 <h1>Contact Us</h1>
 <p>please fill this form in a decent manner</p><br>
-<form action="ContactServlet" method="post">
 <table>
 <tr><td>Full Name:</td><td> <input type ="text" name ="name" required></td></tr><br>
 <tr><td>E-mail:</td> <td><input type="email" name="email" required></td></tr><br>
